@@ -15,15 +15,23 @@
             android:onClick="onButtonClicked"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_margin="40dp"
             />
 
     <Button
-            android:id="@+id/btn1"
+            android:id="@+id/btn2"
+            android:textSize="30dp"
+            android:text="BUTTON"
+            android:layout_margin="75dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+
+    <Button
+            android:id="@+id/btn3"
             android:textSize="30dp"
             android:text="BUTTON"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_margin="80dp"/>
+            />
 
 </LinearLayout>
